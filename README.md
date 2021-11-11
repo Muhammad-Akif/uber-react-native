@@ -8,6 +8,6 @@ Project is created with
 * React-Native
 * Navigation, Redux 
 * Tailwind CSS
-* Google Autocomplete. 
+* Google Autocomplete & Maps. 
 
 
