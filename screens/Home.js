@@ -1,12 +1,23 @@
 import React from 'react'
-import { StyleSheet, Text, SafeAreaView, Platform, StatusBar } from 'react-native'
+import { StyleSheet, View, SafeAreaView, Platform, StatusBar, Image } from 'react-native'
 import tw from 'twrnc';
 
 
 const Home = () => {
     return (
-        <SafeAreaView style={[tw`bg-white h-full`,styles.androidSafeArea]}>
-            <Text style={[tw`text-lg text-green-800 `]}>Home</Text>
+        <SafeAreaView style={[tw`bg-white h-full`, styles.androidSafeArea]}>
+            <View style={tw`p-5`}>
+                <Image
+                style={{
+                    width: 100,
+                    height: 100,
+                    resizeMode: "contain"
+                }}
+                source={{
+                    uri: "https://links.papareact.com/gzs"
+                }}
+                />
+            </View>
         </SafeAreaView>
     )
 }
