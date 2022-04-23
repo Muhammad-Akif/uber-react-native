@@ -1,5 +1,6 @@
 import React from 'react'
 import tw from 'twrnc';
+import { Icon } from '@rneui/themed';
 import { StyleSheet, Text, View, FlatList, TouchableOpacity, Image } from 'react-native'
 
 const NavOptions = () => {
@@ -29,6 +30,12 @@ const NavOptions = () => {
                         style={{ width:120, height:120, resizeMode:'contain' }}
                         source={{uri: item.image}}/>
                         <Text style={tw`mt-2 text-lg font-bold`}>{item.title}</Text>
+                        <Icon
+                        style={tw`p-2 bg-black rounded-full w-10 mt-4`} 
+                        name="arrowright"
+                        color="white"
+                        type="antdesign"
+                        />
                     </View>
                 </TouchableOpacity>
             )}
