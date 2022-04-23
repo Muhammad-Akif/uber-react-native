@@ -3,7 +3,7 @@ import { StyleSheet, View, SafeAreaView, Platform, StatusBar, Image } from 'reac
 import tw from 'twrnc';
 import NavOptions from '../components/NavOptions';
 
-const Home = () => {
+const HomeScreen = () => {
     return (
         <SafeAreaView style={[tw`bg-white h-full`, styles.androidSafeArea]}>
             <View style={tw`p-5`}>
@@ -23,7 +23,7 @@ const Home = () => {
     )
 }
 
-export default Home
+export default HomeScreen
 
 const styles = StyleSheet.create({
     androidSafeArea: {
