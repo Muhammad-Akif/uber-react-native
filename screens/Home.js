@@ -17,8 +17,8 @@ const Home = () => {
                         uri: "https://links.papareact.com/gzs"
                     }}
                 />
-            </View>
             <NavOptions />
+            </View>
         </SafeAreaView>
     )
 }
